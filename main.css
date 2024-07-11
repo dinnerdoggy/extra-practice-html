@@ -1,4 +1,20 @@
 body {
   background-color: black;
   color: beige;
+  max-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+#last {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+  margin-top: 18%;
 }
