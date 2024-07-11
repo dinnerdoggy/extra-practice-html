@@ -7,8 +7,6 @@ function randomWholeNum() {
   return Math.floor(Math.random() * 37);
 }
 
-
-
 for (let i = 0; i < 1000; i++) {
   pArray.push(legend[randomWholeNum()])
 }
